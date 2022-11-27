@@ -1,0 +1,32 @@
+https://djoser.readthedocs.io/en/latest/getting_started.html#installation
+
+$ pipenv install djoser
+
+-------
+https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
+
+
+$ pipenv install djangorestframework_simplejwt
+
+for posting a new user----
+http://127.0.0.1:8000/auth/users/
+
+/jwt/create/ (JSON Web Token Authentication)  ---login end point
+for login---- http://127.0.0.1:8000/auth/jwt/create/
+
+get the current user---
+http://127.0.0.1:8000/auth/users/me/
+
+
+"for posting a new user": "/auth/users/"
+"for login": "/auth/jwt/create/"
+"get the current user": "/auth/users/me/"
+
+"questions": "/prosno/questions/",
+"sets": "/prosno/sets/",
+"questioninexam": "/prosno/questioninexam/",
+"questioninexamreadonly": "/prosno/questioninexamreadonly/",
+"class": "/prosno/class/",
+"course": "/prosno/course/",
+"chapters": "/prosno/chapters/",
+"exams": "/prosno/exams/"
